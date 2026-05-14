@@ -27,11 +27,11 @@ The Matterhorn 64 CORE redesign:
 
 ## Compatibility
 ### General compatbility
-Due to the complexity of the Nintendo 64 hardware, some of its feature are not availble on this design. 
+Due to the complexity of the Nintendo 64 hardware, some of its feature are not available on this design. 
 Please note that:
-- The console is compatible with both NTSC and PAL console. However, it is **NOT** region free. It will only accepts games release on the same region as the donor board.
-- The console does accept memory expansion, but it is not natively compatible with the orignal Expansion Pak cartridge. You'll need to solder two RDRAM36 4MB onto the console instead of the two RDRAM18 2MB chips present by default on the console in order to enable the Expansion Pak.
-- The console does **NOT** have any video output system. You'll either need to hock up an original composite encoder compatible with your region or an HDMI kit
+- The console is compatible with both NTSC and PAL console. However, it is **NOT** region free. It will only accepts games released on the same region as the donor board.
+- The console does accept memory expansion, but it is not natively compatible with the orignal Expansion Pak cartridge. You'll need to solder two RDRAM36 4MB instead of the two RDRAM18 2MB chips present by default on the console in order to enable the Expansion Pak.
+- The console does **NOT** have any video output system. You'll either need to hook up an original composite encoder compatible with your region or an HDMI kit
 - The console does **NOT** have on-board voltage regulators. An additional N64 PSU or 3.3V PSU will be needed in order to use it. The console requires only requires 3.3V at 2A, but please consider that some HDMI mod or composite encoders may require 5V as well.
 - The console is compatible with original controllers
 - It is also compatible with original cartridges using the breakout board.
@@ -65,21 +65,21 @@ The Matterhorn 64 CORE motherboard has been entirely designed using KiCad 9.
 All the files are available in the KiCad files folder of this repository. 
 The libraries created are also available in that same folder. 
 
-Gerbers can be found in the Gerber folder. 
+Gerbers can be found in the [Gerber folder](https://github.com/Xenii1642/Matterhorn-64-CORE/tree/main/Gerbers). 
 
 The console needs those two PCBs in order to make it work:
-- Matterhorn 64 CORE redesign
-- Matterhorn Cartridge Breakout
+- [Matterhorn 64 CORE redesign](https://github.com/Xenii1642/Matterhorn-64-CORE/blob/main/Gerbers/Matterhorn-64-CORE.zip)
+- [Matterhorn Cartridge Breakout](https://github.com/Xenii1642/Matterhorn-64-CORE/blob/main/Gerbers/Cartridge-Breakout-Board.zip)
 
 The CORE itself represents the main logic of the console. The breakout board is used easily connect a full size game cartridge to the console. 
 
 ## Ordering
-For this project, I recommand ordering the board through JLCPCB or PCBWay. 
-I personally ordered mine through JLCPCB. 
+For this project, I recommand ordering the board through [JLCPCB](https://jlcpcb.com/) or [PCBWay](https://pcbway.com/). 
+I personally ordered mine through [JLCPCB](https://jlcpcb.com/). 
 
 You'll find here the list of settings that must be applied when ordering. 
 
-### Matterhorn 64 CORE
+### [Matterhorn 64 CORE](https://github.com/Xenii1642/Matterhorn-64-CORE/blob/main/Gerbers/Matterhorn-64-CORE.zip]
 - Material: FR4
 - Layers: 4
 - Thickness: 1.6mm
@@ -87,7 +87,7 @@ You'll find here the list of settings that must be applied when ordering.
 - Impedance Control: ±10%
 - Stencil: Recommanded but not obligatory.
 
-### Matterhorn Cartridge Breakout
+### [Matterhorn Cartridge Breakout](https://github.com/Xenii1642/Matterhorn-64-CORE/blob/main/Gerbers/Cartridge-Breakout-Board.zip)
 - Material: FR4
 - Layers: 2
 
@@ -138,17 +138,18 @@ Then, insert a game and power it up! The board is properly powered if:
 - Vterm shows 2.55V
 - Vshows shows 1.91V
 
-If you own a logic analyzer, you can connect it to the audio data pins and controller ports.
+If you own a logic analyzer, you can connect it to the audio data pins or controller ports.
 This is what you should see on the controller data line when a controller is plugged on Super Mario 64
 <img src="Images/mario64-data.JPG" width="800" />
 
-If everything seems good, you can hock up an HDMI mod or composite encoder and test it out! If it displays, it works! Great job!
+Please note that those signals **DO NOT** appear if the game is not properly read.
+If everything seems good, you can hook up an HDMI mod or composite encoder and test it out! If it displays, it works! Great job!
 
 ## Known issue:
-When I assembled my prototype, I probably heated the CPU too much while removing it. This caused the console to only work if heated.
+When I assembled my prototype, I *probably* heated the CPU too much while removing it. This caused the console to only work if heated.
 More tests will be done to understand what exactly caused that. 
 
-Even though that issue is annoying, I wanted to mention the board worked flawlessly for multiple consecutive days. 
+Even though that issue is annoying, I wanted to mention the board have worked flawlessly for multiple consecutive days. 
 
 ## Credits
 This project was the most complicated I've done. Hopefully, some people of the BitBuilt community helped me out to make my journey easier.
