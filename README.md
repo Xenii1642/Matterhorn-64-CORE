@@ -118,6 +118,7 @@ First of all, you'll need to access the Nintendo 64 motherbaord and remove all t
 - Sharp 7VZ5 LDO (U12)
 - Cartridge slot (P5)
 
+Source of this image: Wikipedia.com
 <img src="Images/motherboard-components.png" width="800" />
 <img src="Images/components-removed.JPG" width="800" />
 
@@ -159,8 +160,9 @@ Therefore, I wanted to address big thanks to:
 
 ## Media
 You can find a video of my working board on my Instagram account:
-[Matterhorn 64 CORE working](https://www.instagram.com/reel/DWvlAQKiPuf/)
+[Matterhorn 64 CORE testing video](https://www.instagram.com/reel/DWvlAQKiPuf/)
 
+I've also considered making a longer YouTube video on the subject. I will probably do it when I'll get more time.
 ## License
 Matterhorn 64 CORE is released under the CERN-OHL-S-2.0 license. 
 This license allows you to:
