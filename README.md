@@ -1,8 +1,9 @@
 <img src="Images/logo-text.png" width="800" />
 
-<img src="Images/front.JPG" width="380" /> <img src="Images/back.JPG" width="417" /> 
+<img src="Images/front.JPG" width="800" /> 
+<img src="Images/back.JPG" width="800" /> 
 
-<img src="Images/size-comparison.jpg" width="800" />
+<img src="Images/size-comparison.JPG" width="800" />
 
 Matterhorn 64 CORE is the world's smallest open-source Nintendo 64 motherboard redesign. 
 It relies on the original components taken from an original Nintendo 64 console. 
@@ -118,7 +119,7 @@ First of all, you'll need to access the Nintendo 64 motherbaord and remove all t
 - Cartridge slot (P5)
 
 <img src="Images/motherboard-components.png" width="800" />
-<img src="Images/components-removed.png" width="800" />
+<img src="Images/components-removed.JPG" width="800" />
 
 I personally removed mine using hot air and a bit of flux. I heated at 360°C. 
 Once removed, they can take place on the new motherboard. 
