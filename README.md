@@ -151,6 +151,14 @@ More tests will be done to understand what exactly caused that.
 
 However I want to mention that the board works flawlessly for multiple consecutive days. 
 
+## Future projects
+This board is my official entry into Nintendo 64 modding. 
+I'm working on two big projects which both use the CORE:
+- Weisshorn 64 Mini: A collab between SenorAvocado and the Xii-Labs to create a Nintendo 64 Classic Mini console.
+- Matterhorn 64: An ultimate Nintendo 64 portable. It's going to be a true revolution, also powered by the core.
+
+Going to keep everyone update through my socials and the BitBuilt server. 
+
 ## Credits
 This project was the most complicated I've done. Thankfully some members of the BitBuilt community helped me out to make my journey easier.
 Therefore, I wanted to address big thanks to:
