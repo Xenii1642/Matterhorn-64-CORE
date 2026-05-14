@@ -72,7 +72,7 @@ The console needs those two PCBs in order to make it work:
 
 The CORE itself represents the main logic of the console. The breakout board is used easily connect a full size game cartridge to the console. 
 
-## Board ordering
+## Ordering
 For this project, I recommand ordering the board through JLCPCB or PCBWay. 
 I personally ordered mine through JLCPCB. 
 
@@ -101,8 +101,72 @@ Please note that the board **might** work by using the 3313 stackup with no cont
 To make sure my prototype was working, I did order it using those specifications. 
 Ordering without it has not been tried and is at your own risks. 
 
+All the components are listed in the Bill Of Material file (BOM). They can be ordered through Digikey or Mouser. 
+
 ## Assembly 
+Once you've found a working Nintendo 64 console, a few games to test it, all the components and the Matterhorn 64 CORE boards, assembly can begin!
+First of all, you'll need to access the Nintendo 64 motherbaord and remove all those components:
+- CPU-NUS (U10)
+- RCP-NUS (U9)
+- 2x RDRAM18-NUS (U14 & U11) (or 1x RDRAM36 depending of the version, U14)) 
+- NUS-PIF (U6)
+- PTS9128 (U3)
+- 74LCV125 (U8)
+- 2x MX8330 (U7 & U15)
+- 2x Crystals (X1 & X2)
+- Sharp 7VZ5 LDO (U12)
+- Cartridge slot (P5)
+
+I personally removed mine using hot air and a bit of flux. I heated at 360°C. 
+Once removed, they can take place on the new motherboard. 
+Low melting solder is not recommanded in this process since the board will heat and cool down constantly when running, which can damage the solders after a long time. It is also not recommanded to heat either the board or the components too much, which could lead to issues. 
+I recommand soldering the whole front side and then solder the back side. 
+
+The breakout board is much simpler, it only has a single FFC connector and the cartridge slot, which are much easier to solder than the little passives in my opinion. 
+
+Once everything is done and cleaned using isopropylic alcohol, the test process can begin!
+
+## Testing
+First, connect the breakout board and make sure you don't have any dead shorts between the 3.3V line and the GND. 
+Then, insert a game and power it up! The board is properly powered if:
+- The console draws roughly 1.4A
+- Vterm shows 2.55V
+- Vshows shows 1.91V
+
+If you own a logic analyzer, you can connect it to the audio data pins and controller ports. 
+If everything seems good, you can hock up an HDMI mod or composite encoder and test it out! If it displays, it works! Great job!
+
+## Known issue:
+When I assembled my prototype, I probably heated the CPU too much while removing it. This caused the console to only work if heated.
+More tests will be done to understand what exactly caused that. 
+
+Even though that issue is annoying, I wanted to mention the board worked flawlessly for multiple consecutive days. 
+
+## Credits
+This project was the most complicated I've done. Hopefully, some people of the BitBuilt community helped me out to make my journey easier.
+Therefore, I wanted to address big thanks to:
+- @cyframe who collaborated with me on some part of the design, especially footprints
+- @crazygadget who made great open-source flexes which helped me understanding some part of the console
+- @mackieks who answered all my technical questions and took the time to review the whole board
+- @thedrew and @gunnar who gave me insiparation to design my own motherboard recreation as long as helping me throughout the process.
+
+## License
+Matterhorn 64 CORE is released under the CERN-OHL-S-2.0 license. 
+This license allows you to:
+- Study
+- Modify
+- Manufacture
+- Sell
+- Distribute
+
+Any modified versions of derivatives must also remain open-source under **the exact same license**
+
+## Support
+If you notice anything wrong with the desing, if you would looking for answer to questions, help or advice or if you just have ideas to upgrade that project, please let me know!
+
+Thanks everybody for the support and see you next time!
 
 
+ 
 
 
