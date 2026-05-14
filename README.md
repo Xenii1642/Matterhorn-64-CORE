@@ -68,8 +68,8 @@ The libraries created are also available in that same folder.
 Gerbers can be found in the [Gerber folder](https://github.com/Xenii1642/Matterhorn-64-CORE/tree/main/Gerbers). 
 
 The console needs those two PCBs in order to make it work:
-- [Matterhorn 64 CORE redesign](https://github.com/Xenii1642/Matterhorn-64-CORE/blob/main/Gerbers/Matterhorn-64-CORE.zip)
-- [Matterhorn Cartridge Breakout](https://github.com/Xenii1642/Matterhorn-64-CORE/blob/main/Gerbers/Cartridge-Breakout-Board.zip)
+- Matterhorn 64 CORE redesign
+- Matterhorn Cartridge Breakout
 
 The CORE itself represents the main logic of the console. The breakout board is used easily connect a full size game cartridge to the console. 
 
@@ -154,8 +154,8 @@ Even though that issue is annoying, I wanted to mention the board have worked fl
 ## Credits
 This project was the most complicated I've done. Hopefully, some people of the BitBuilt community helped me out to make my journey easier.
 Therefore, I wanted to address big thanks to:
-- @cyframe who collaborated with me on some part of the design, especially footprints
-- @crazygadget who made great open-source flexes which helped me understanding some part of the console
+- @cy-888 who collaborated with me on some part of the design, especially footprints
+- @CrazyGadgetMods who made great open-source flexes which helped me understanding some part of the console
 - @mackieks who answered all my technical questions and took the time to review the whole board
 - @thedrew and @gunnar who gave me insiparation to design my own motherboard recreation as long as helping me throughout the process.
 
