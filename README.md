@@ -139,7 +139,7 @@ Then, insert a game and power it up! The board is properly powered if:
 
 If you own a logic analyzer, you can connect it to the audio data pins and controller ports.
 This is what you should see on the controller data line when a controller is plugged on Super Mario 64
-<img src="Images/mario64-data.png" width="800" />
+<img src="Images/mario64-data.JPG" width="800" />
 
 If everything seems good, you can hock up an HDMI mod or composite encoder and test it out! If it displays, it works! Great job!
 
@@ -156,6 +156,10 @@ Therefore, I wanted to address big thanks to:
 - @crazygadget who made great open-source flexes which helped me understanding some part of the console
 - @mackieks who answered all my technical questions and took the time to review the whole board
 - @thedrew and @gunnar who gave me insiparation to design my own motherboard recreation as long as helping me throughout the process.
+
+## Media
+You can find a video of my working board on my Instagram account:
+[Matterhorn 64 CORE working](https://www.instagram.com/reel/DWvlAQKiPuf/)
 
 ## License
 Matterhorn 64 CORE is released under the CERN-OHL-S-2.0 license. 
