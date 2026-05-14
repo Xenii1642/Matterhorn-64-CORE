@@ -1,6 +1,6 @@
-# Matterhorn 64 CORE
-<img src="Images/logo_text.jpg" width="800" />
-<img src="Images/front.JPG" width="400" /> <img src="Images/back.JPG" width="400" /> 
+<img src="Images/logo-text.png" width="800" />
+<img src="Images/front.JPG" width="350" /><img src="Images/back.JPG" width="350" /> 
+<img src="Images/size-comparison.jpg" width="800" />
 
 Matterhorn 64 CORE is the world's smallest open-source Nintendo 64 motherboard redesign. 
 It relies on the original components taken from an original Nintendo 64 console. 
@@ -10,8 +10,6 @@ This board redesign offers smaller, better, cleaner and more reliable builds.
 Matterhorn 64 CORE can easily be integrated in different kinds of builds such as Nintendo 64 portables devices or mini consoles. 
 
 It is fully open-source and released under the CERN-OHL-S-2.0 license. 
-
-More technical information will be found here: [BB Thread] 
 
 ## Features
 The Matterhorn 64 CORE redesign:
@@ -117,6 +115,9 @@ First of all, you'll need to access the Nintendo 64 motherbaord and remove all t
 - Sharp 7VZ5 LDO (U12)
 - Cartridge slot (P5)
 
+<img src="Images/motherboard-components.png" width="800" />
+<img src="Images/components-removed.png" width="800" />
+
 I personally removed mine using hot air and a bit of flux. I heated at 360°C. 
 Once removed, they can take place on the new motherboard. 
 Low melting solder is not recommanded in this process since the board will heat and cool down constantly when running, which can damage the solders after a long time. It is also not recommanded to heat either the board or the components too much, which could lead to issues. 
@@ -133,7 +134,10 @@ Then, insert a game and power it up! The board is properly powered if:
 - Vterm shows 2.55V
 - Vshows shows 1.91V
 
-If you own a logic analyzer, you can connect it to the audio data pins and controller ports. 
+If you own a logic analyzer, you can connect it to the audio data pins and controller ports.
+This is what you should see on the controller data line when a controller is plugged on Super Mario 64
+<img src="Images/mario64-data.png" width="800" />
+
 If everything seems good, you can hock up an HDMI mod or composite encoder and test it out! If it displays, it works! Great job!
 
 ## Known issue:
