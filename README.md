@@ -1,2 +1,3 @@
-# Matterhorn-64-CORE
-The world’s first working open-source Nintendo 64 motherboard redesign. Bare essentials, full power!
+# Matterhorn 64 CORE
+<img src="Images/logo.jpg" width="800" />
+
