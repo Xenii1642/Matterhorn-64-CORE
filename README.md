@@ -6,11 +6,11 @@
 <img src="Images/size-comparison.JPG" width="800" />
 
 Matterhorn 64 CORE is the world's smallest open-source Nintendo 64 motherboard redesign. 
-It relies on the original components taken from an original Nintendo 64 console. 
-Since it does **not** rely on emulation, it works perfectly with all the games ever released on the system. 
+It utilizes components taken from an original Nintendo 64 console. 
+Because it does **not** rely on emulation, it works perfectly with all games released on the system. 
 
-This board redesign offers smaller, better, cleaner and more reliable builds. 
-Matterhorn 64 CORE can easily be integrated in different kinds of builds such as Nintendo 64 portables devices or mini consoles. 
+This board redesign enables smaller, better, cleaner and more reliable Nintendo 64 based builds. 
+Matterhorn 64 CORE can easily be integrated in different kinds of builds such as Nintendo 64 portable devices or mini consoles. 
 
 It is fully open-source and released under the CERN-OHL-S-2.0 license. 
 
@@ -19,17 +19,17 @@ The Matterhorn 64 CORE redesign:
 - The world's smallest open source Nintendo 64 motherboard
 - Fits in a tiny 78x77.2 mm form factor 
 - Runs on real hardware, **no emulation**
-- 100% compatible with **all** the games released on the system, including flashcarts
+- 100% compatible with **all** games released on the system, including flashcarts
 - Runs on 3.3V @2A 
-- Designed on KiCad 9
-- Optimized for clean and optimized Nintendo 64 portable builds
+- Designed using KiCad 9
+- Layout and routing is optimized and clean, easy to use in future Nintendo 64 builds
 - 100% open-source and released under the CERN-OHL-S-2.0 license
 
 ## Compatibility
 ### General compatibility
-Due to the complexity of the Nintendo 64 hardware, some of its feature are not available on this design. 
+Due to the complexity of the Nintendo 64 hardware, some of its features are not available on this design. 
 Please note that:
-- The console is compatible with both NTSC and PAL components. However, it is **NOT** region free. It will only accepts games released on the same region as the donor board.
+- The console is compatible with both NTSC and PAL components. However, it is **NOT** region free. It will only accept games released on the same region as the donor board.
 - The console does accept memory expansion, but it is not natively compatible with the orignal Expansion Pak cartridge. You'll need to solder two RDRAM36 4MB instead of the two RDRAM18 2MB chips present by default on the console in order to enable the Expansion Pak.
 - The console does **NOT** have any video output system. You'll either need to hook up an original composite encoder compatible with your region or an HDMI kit.
 - The console does **NOT** have on-board voltage regulators. An additional N64 PSU or 3.3V PSU will be needed in order to use it. The console requires only requires 3.3V at 2A, but please consider that some HDMI mod or composite encoders may require 5V as well.
@@ -55,8 +55,8 @@ This mod is **ONLY** compatible with the following motherboard revisions:
 **ANY NEWER REVISION WILL NOT BE COMPATIBLE**
 
 ## Disclamer
-This project requires advanced soldering techniques. It relies on small pitch QFPs and 0402 passives.
-Removing the components from the original board can be fatal for them if done incorrectly.
+This project requires complex soldering techniques. It relies on small pitch QFPs and 0402 passives.
+Removing the components from the original board can cause irreperable damage if done incorrectly.
 
 Due to the nature of this project, I am not responsible for any physical damages that may occur. 
 
@@ -96,17 +96,17 @@ As you might notice, the CORE requires controlled impedance.
 The Nintendo 64 uses an extremely fast Rambus Dynamic Random Access Memory Bus (RDRAM BUS). 
 In order to work, the CORE requires controlled impedance to match the 50Ω required by the RDRAM BUS. 
 
-The Gerbers files for this board inclues an Excel document which specifies which traces require those controlled impedance. 
+The Gerber files for this board include an Excel document which specifies which traces require those controlled impedance. 
 
 Please note that the board **might** work by using the 3313 stackup with no controlled impedance. 
 To make sure my prototype was working, I did order it using those specifications. 
 Ordering without it has not been tried and is at your own risks. 
 
-All the components are listed in the Bill Of Material file (BOM). They can be ordered through Digikey or Mouser. 
+All the components are listed in the Bill Of Materials (BOM). They can be ordered through Digikey or Mouser. 
 
 ## Assembly 
-Once you've found a working Nintendo 64 console, a few games to test it, all the components and the Matterhorn 64 CORE boards, assembly can begin!
-First of all, you'll need to access the Nintendo 64 motherbaord and remove all those components:
+Once you've sourced a working Nintendo 64 console, a few games to test it, all the components and the Matterhorn 64 CORE boards, assembly can begin!
+First of all, you'll need to access the Nintendo 64 motherboard and remove these components:
 - CPU-NUS (U10)
 - RCP-NUS (U9)
 - 2x RDRAM18-NUS (U14 & U11) (or 1x RDRAM36 depending of the version, U14)) 
@@ -124,8 +124,8 @@ Source of this image: Wikipedia.com
 
 I personally removed mine using hot air and a bit of flux. I heated at 360°C. 
 Once removed, they can take place on the new motherboard. 
-Low melting solder is not recommanded in this process since the board will heat and cool down constantly when running, which can damage the solders after a long time. It is also not recommanded to heat either the board or the components too much, which could lead to issues. 
-I recommand soldering the whole front side and then solder the back side. 
+Low melting solder is not recommended in this process since the board will heat and cool down constantly when running, which can damage the solder joints after a long time. It is also not recommended to heat either the board or the components too much, which could lead to issues. 
+I recommend soldering the whole front side and then solder the back side. 
 
 The breakout board is much simpler, it only has a single FFC connector and the cartridge slot, which are much easier to solder than the little passives in my opinion. 
 
@@ -149,10 +149,10 @@ If everything seems good, you can hook up an HDMI mod or composite encoder and t
 When I assembled my prototype, I *probably* heated the CPU too much while removing it. This caused the console to only work if heated.
 More tests will be done to understand what exactly caused that. 
 
-Even though that issue is annoying, I wanted to mention the board have worked flawlessly for multiple consecutive days. 
+However I want to mention that the board works flawlessly for multiple consecutive days. 
 
 ## Credits
-This project was the most complicated I've done. Hopefully, some people of the BitBuilt community helped me out to make my journey easier.
+This project was the most complicated I've done. Thankfully some people of the BitBuilt community helped me out to make my journey easier.
 Therefore, I wanted to address big thanks to:
 - @cy-888 who collaborated with me on some part of the design, especially footprints
 - @CrazyGadgetMods who made great open-source flexes which helped me understanding some part of the console
@@ -163,7 +163,7 @@ Therefore, I wanted to address big thanks to:
 You can find a video of my working board on my Instagram account:
 [Matterhorn 64 CORE testing video](https://www.instagram.com/reel/DWvlAQKiPuf/)
 
-I've also considered making a longer YouTube video on the subject. I will probably do it when I'll get more time.
+I've also considered making a longer YouTube video on the subject. I will probably do it when I have more time.
 ## License
 Matterhorn 64 CORE is released under the CERN-OHL-S-2.0 license. 
 This license allows you to:
@@ -173,10 +173,10 @@ This license allows you to:
 - Sell
 - Distribute
 
-Any modified versions of derivatives must also remain open-source under **the exact same license**
+Any modified versions of derivatives must also remain open-source under **the same, unmodified license**
 
 ## Support
-If you notice anything wrong with the desing, please let me know!
+If you notice anything wrong with the design, please let me know!
 You can also reach to me for questions or general help, I'm always happy to help 👍
 
-Thanks everybody for the support and see you next time!
+Thank you for your support and see you next time!
