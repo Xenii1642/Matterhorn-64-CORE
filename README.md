@@ -22,7 +22,7 @@ The Matterhorn 64 CORE redesign:
 - 100% compatible with **all** games released on the system, including flashcarts
 - Runs on 3.3V @2A 
 - Designed using KiCad 9
-- Layout and routing is optimized and clean, easy to use in future Nintendo 64 builds
+- Layout and routing is optimized and clean, making it easy to use in future Nintendo 64 builds
 - 100% open-source and released under the CERN-OHL-S-2.0 license
 
 ## Compatibility
