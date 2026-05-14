@@ -74,7 +74,7 @@ The console needs those two PCBs in order to make it work:
 The CORE itself represents the main logic of the console. The breakout board is used easily connect a full size game cartridge to the console. 
 
 ## Ordering
-For this project, I recommand ordering the board through [JLCPCB](https://jlcpcb.com/) or [PCBWay](https://pcbway.com/). 
+For this project, I recommend ordering the board through [JLCPCB](https://jlcpcb.com/) or [PCBWay](https://pcbway.com/). 
 I personally ordered mine through [JLCPCB](https://jlcpcb.com/). 
 
 You'll find here the list of settings that must be applied when ordering. 
@@ -85,7 +85,7 @@ You'll find here the list of settings that must be applied when ordering.
 - Thickness: 1.6mm
 - Specify Stackup: YES - JLC0416H-3313
 - Impedance Control: ±10%
-- Stencil: Recommanded but not obligatory.
+- Stencil: recommended but not obligatory.
 
 ### [Matterhorn Cartridge Breakout](https://github.com/Xenii1642/Matterhorn-64-CORE/blob/main/Gerbers/Cartridge-Breakout-Board.zip)
 - Material: FR4
