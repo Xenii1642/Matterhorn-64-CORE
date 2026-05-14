@@ -68,8 +68,8 @@ The libraries created are also available in that same folder.
 Gerbers can be found in the [Gerber folder](https://github.com/Xenii1642/Matterhorn-64-CORE/tree/main/Gerbers). 
 
 The console needs those two PCBs in order to make it work:
-- Matterhorn 64 CORE redesign
-- Matterhorn Cartridge Breakout
+- [Matterhorn 64 CORE redesign](https://github.com/Xenii1642/Matterhorn-64-CORE/blob/main/Gerbers/Matterhorn-64-CORE.zip)
+- [Matterhorn Cartridge Breakout](https://github.com/Xenii1642/Matterhorn-64-CORE/blob/main/Gerbers/Cartridge-Breakout-Board.zip)
 
 The CORE itself represents the main logic of the console. The breakout board is used easily connect a full size game cartridge to the console. 
 
@@ -79,7 +79,7 @@ I personally ordered mine through [JLCPCB](https://jlcpcb.com/).
 
 You'll find here the list of settings that must be applied when ordering. 
 
-### [Matterhorn 64 CORE](https://github.com/Xenii1642/Matterhorn-64-CORE/blob/main/Gerbers/Matterhorn-64-CORE.zip]
+### [Matterhorn 64 CORE](https://github.com/Xenii1642/Matterhorn-64-CORE/blob/main/Gerbers/Matterhorn-64-CORE.zip)
 - Material: FR4
 - Layers: 4
 - Thickness: 1.6mm
