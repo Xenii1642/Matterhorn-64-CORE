@@ -1,0 +1,108 @@
+(footprint "Crystal"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c4562880-ae2b-418a-b735-6d54ef266cc2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Crystal"
+		(at -0.4 4.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2782c3b9-17fc-4a82-b781-0fedeb7bc309")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "96b7e3b3-6912-433c-8a99-8a4c6a2f8883")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e73957a4-97f5-4e8a-8316-ccc565409df5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(arc
+				(start 3.25 2.625)
+				(mid 5.106155 1.856155)
+				(end 5.875 0)
+			)
+			(arc
+				(start 5.875 0)
+				(mid 5.106155 -1.856155)
+				(end 3.25 -2.625)
+			)
+			(arc
+				(start -3.25 -2.625)
+				(mid -5.106155 -1.856155)
+				(end -5.875 0)
+			)
+			(arc
+				(start -5.875 0)
+				(mid -5.106155 1.856155)
+				(end -3.25 2.625)
+			)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "23c6fc69-cefc-4d62-b64e-7debb07d5b0f")
+	)
+	(pad "1" thru_hole circle
+		(at -2.4 0)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "F.Mask" "F.Paste")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "825c5b94-e936-4f75-95dc-2930cb79eceb")
+	)
+	(pad "2" thru_hole circle
+		(at 2.4 0)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "F.Mask" "F.Paste")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "6b521413-84a1-4dcc-ab2a-9257e183df54")
+	)
+	(embedded_fonts no)
+)
