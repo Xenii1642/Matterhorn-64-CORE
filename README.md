@@ -1,5 +1,7 @@
 <img src="Images/logo-text.png" width="800" />
-<img src="Images/front.JPG" width="350" /><img src="Images/back.JPG" width="350" /> 
+
+<img src="Images/front.JPG" width="380" /> <img src="Images/back.JPG" width="417" /> 
+
 <img src="Images/size-comparison.jpg" width="800" />
 
 Matterhorn 64 CORE is the world's smallest open-source Nintendo 64 motherboard redesign. 
