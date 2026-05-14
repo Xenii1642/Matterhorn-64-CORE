@@ -56,7 +56,7 @@ This mod is **ONLY** compatible with the following motherboard revisions:
 
 ## Disclamer
 This project requires complex soldering techniques. It relies on small pitch QFPs and 0402 passives.
-Removing the components from the original board can cause irreperable damage if done incorrectly.
+Removing the components from the original board can cause irreparable damage if done incorrectly.
 
 Due to the nature of this project, I am not responsible for any physical damages that may occur. 
 
