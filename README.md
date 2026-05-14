@@ -152,7 +152,7 @@ More tests will be done to understand what exactly caused that.
 However I want to mention that the board works flawlessly for multiple consecutive days. 
 
 ## Credits
-This project was the most complicated I've done. Thankfully some people of the BitBuilt community helped me out to make my journey easier.
+This project was the most complicated I've done. Thankfully some members of the BitBuilt community helped me out to make my journey easier.
 Therefore, I wanted to address big thanks to:
 - @cy-888 who collaborated with me on some part of the design, especially footprints
 - @CrazyGadgetMods who made great open-source flexes which helped me understanding some part of the console
