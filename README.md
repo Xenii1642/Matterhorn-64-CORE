@@ -83,7 +83,7 @@ You'll find here the list of settings that must be applied when ordering.
 - Material: FR4
 - Layers: 4
 - Thickness: 1.6mm
-- Specify Stackup: YES - JLC0416H-3313
+- Specify Stackup: YES - JLC04161H-3313
 - Impedance Control: ±10%
 - Stencil: recommended but not obligatory.
 
