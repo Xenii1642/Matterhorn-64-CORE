@@ -182,6 +182,7 @@ This license allows you to:
 - Distribute
 
 Any modified versions of derivatives must also remain open-source under **the same, unmodified license**
+You must also properly credit the original creators when reusing or redistributing these files.
 
 ## Support
 If you notice anything wrong with the design, please let me know!
