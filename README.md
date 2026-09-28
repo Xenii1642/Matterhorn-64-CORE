@@ -97,10 +97,13 @@ The Nintendo 64 uses an extremely fast Rambus Dynamic Random Access Memory Bus (
 In order to work, the CORE requires controlled impedance to match the 50Ω required by the RDRAM BUS. 
 
 The Gerber files for this board include an Excel document which specifies which traces require those controlled impedance. 
+This document will only be taken into account by JLCPCB if the order specifies the use of the "Controlled Impedance" option set to ±10%.
 
 Please note that the board **might** work by using the 3313 stackup with no controlled impedance. 
 To make sure my prototype was working, I did order it using those specifications. 
 Ordering without it has not been tried and is at your own risks. 
+
+
 
 All the components are listed in the Bill Of Materials (BOM). They can be ordered through Digikey or Mouser. 
 
